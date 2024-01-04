@@ -11,27 +11,41 @@ The access token provided upon successful authentication is valid for 5 days. Af
 ### Admin
 
 In LeagueController:
+
 GenerateTeamsIntoGroup - [HttpPost("generate-groups")]
+
 GetGeneratedLeague - [HttpGet("league")]
+
 GenerateGroupMatches - [HttpPost("generate-group-matches")]
+
 GenerateFinalMatches - [HttpPost("generate-semifinal-matches")]
+
 GenerateFinalMatch - [HttpPost("generate-final-match")]
+
 GetWinner - [HttpGet("winner")]
 
 In TeamsController:
+
 GetAll - [HttpGet]
+
 Create - [HttpPost]
 
 ### User
 
 In LeagueController:
+
 GetGeneratedLeague - [HttpGet("league")]
+
 GetBestTeamsPerGroup - [HttpGet("best-teams-per-group")]
+
 GetBestTeamsFromSemifinals - [HttpGet("best-teams-from-semifinals")]
+
 GetWinner - [HttpGet("winner")]
 
 In TeamsController:
+
 GetById - [HttpGet("{id:Guid}")]
+
 Create - [HttpPost]
 
 
