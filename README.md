@@ -82,7 +82,7 @@ Admins might encounter the following issues:
 - Cannot generate semi-final matches: This may occur if there are not exactly four best teams.
 - Cannot generate final match: If the latest two matches required for the final are not found, the final match cannot be generated.
 
-Please be aware of these constraints and potential issues while using the DotNetLeague.API. If you face any challenges, refer to the error messages provided for more information ✌️
+Please be aware of these constraints and potential issues while using the DotNetLeague.API. If you face any challenges, refer to the error messages provided for more information 😋
 
 
 
@@ -99,3 +99,9 @@ Please be aware of these constraints and potential issues while using the DotNet
 - **Swashbuckle.AspNetCore** - version 6.5.0
 - **System.IdentityModel.Tokens.Jwt** - version 7.0.0
 
+
+## Local Host Ports
+
+The application is hosted in the following local host port:
+
+- HTTPS: https://localhost:7294
