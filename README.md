@@ -2,6 +2,11 @@
 
 This League Management Application is built using .NET 7.0, serving as a minimal Web API that leverages MSSQL for data storage. The system is designed to manage a league format with 16 teams divided into four groups A, B, C, D, each containing four teams. After three rounds of group matches, the administrator selects the best team from each group based on points, and they proceed to the semi-finals. The two winning teams from the semi-finals advance to the final, where the ultimate winner is determined. Match results are randomly generated within a range of 0 to 5 goals, with wins earning 3 points, losses 0 points, and draws 1 point. In case of a draw in the semi-finals or final, a random point is awarded to one team.
 
+
+## How Entites interact 
+![Screenshot 2024-01-05 000520](https://github.com/LeonitKrasniqi/DotNetLeague/assets/102996903/e14d9884-3668-473e-9e97-bb8ca1f6dc42)
+
+
 ## Role-Based Access Control
 
 ## Token Validity
